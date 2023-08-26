@@ -4,6 +4,11 @@ import (
 	"fmt"
 )
 
-func main(){
- fmt.Println("sa"[0:1])
+func main() {
+	mat := [][]int{
+		{1,0},
+		{0,1},
+	}
+	fmt.Println(largestIsland(mat))
+
 }
