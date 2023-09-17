@@ -1,16 +1,13 @@
 package main
 
-import (
-	"fmt"
-	
-)
+// import (    
+// 	"fmt"
+// 	"strconv"
+// )
 
-func test1(list *[]int){
-	list = &[]int{}
-}
+
 
 func main() {
-	list := []int{1,2,3,4,5}
-	test1(&list)
-	fmt.Print(list)
+	s := "(1+(4+5+2)-3)+(6+8)"
+	calculate(s)
 }
